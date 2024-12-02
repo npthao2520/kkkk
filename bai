@@ -1,0 +1,7 @@
+let a1 = 3, a2 = 2, a3 = 1;
+let max = a1;
+
+if (a2 > max) max = a2;
+if (a3 > max) max = a3;
+
+console.log("Số lớn nhất là:", max);
